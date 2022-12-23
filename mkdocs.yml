@@ -25,7 +25,6 @@ theme:
 
 plugins:
   - search
-  - pdf-export
 
 repo_url: https://github.com/chaso-ch/website
 edit_uri: blob/main/docs/

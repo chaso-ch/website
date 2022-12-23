@@ -1,4 +1,4 @@
-site_name: CHASO - kreatives chaos solothurn
+site_name: CHASO - Kreatives Chaos Solothurn
 
 theme:
   font: false
@@ -31,7 +31,7 @@ edit_uri: blob/main/docs/
 
 extra:
   social:
-    - icon: fontawesome/brands/github # (1)!
+    - icon: fontawesome/brands/github
       link: https://github.com/chaso-ch
 
     - icon: fontawesome/solid/paper-plane

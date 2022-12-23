@@ -24,7 +24,8 @@ theme:
 plugins:
   - search
 
-repo_url: https://github.com/chaso-ch/website/
+repo_url: https://github.com/chaso-ch/website
+edit_uri: blob/main/docs/
 
 extra:
   social:

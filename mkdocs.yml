@@ -24,6 +24,12 @@ theme:
 plugins:
   - search
 
+nav:
+  - index.md
+  - ueber-uns.md
+  - standort.md
+  - kontakt.md
+
 repo_url: https://github.com/chaso-ch/website
 edit_uri: blob/main/docs/
 

@@ -1,0 +1,26 @@
+site_name: CHASO - kreatives chaos solothurn
+
+theme:
+  logo: images/logo.png
+  name: material
+  language: de
+  palette:
+    primary: white
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+plugins:
+  - search
+
+repo_url: https://github.com/chaso-ch/website/
+
+extra:
+  social:
+    - icon: fontawesome/brands/github # (1)!
+      link: https://github.com/chaso-ch
+
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:resmo@chaso.ch
+
+copyright: Alle Inhalte stehen unter <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de">Creatice Commons Lizenz (CC BY-NC-SA 4.0)</a>

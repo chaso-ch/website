@@ -1,6 +1,7 @@
 site_name: CHASO - kreatives chaos solothurn
 
 theme:
+  font: false
   logo: images/logo.png
   name: material
   language: de
@@ -20,15 +21,11 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.indexes
 
 plugins:
   - search
-
-nav:
-  - index.md
-  - ueber-uns.md
-  - standort.md
-  - kontakt.md
+  - pdf-export
 
 repo_url: https://github.com/chaso-ch/website
 edit_uri: blob/main/docs/

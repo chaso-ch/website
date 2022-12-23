@@ -10,6 +10,8 @@ Ein Chaos muss entstehen, so auch CHASO. Wir sind _nicht fixfertig_, ganz im Geg
 
 Dinge auch mal auseinandernehmen um sie zu verstehen, aus Altgedientem Neues erschaffen, Dinge zweckentfremden um ein Problem zu lösen. So ist Chaos.
 
+Unsere Grundsätze:
+
 1. Nichts kann entstehen ohne Chaos, nichts kann bestehen ohne Erkenntnis.
 2. Alles verändert sich, wir verändern uns mit.
 3. Wer tut hat recht.
@@ -19,19 +21,3 @@ Dinge auch mal auseinandernehmen um sie zu verstehen, aus Altgedientem Neues ers
 ## Für Wen?
 
 Jede und jeder mit Interesse am Programmieren, Lasern, Löten, Basteln, Stricken, 3D-Drucken, Website pflegen, Logo designen, etc.
-
-## Statuten
-
-In Arbeit. Verein ist noch in Gründung.
-
-## Protokolle
-
-Noch keine.
-
-## Mitgliedschaft
-
-Verein ist noch in Gründung.
-
-## Unterstützung / Spenden
-
-Verein ist noch in Gründung.

@@ -22,22 +22,12 @@
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
         
-          
-          
-          <meta name="theme-color" content="#ffffff">
-        
       
       
 
     
     
     
-      
-        
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
     
@@ -53,12 +43,16 @@
   
     
     
+      
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="">
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="">
   
     
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -107,6 +101,30 @@
       </div>
     </div>
     
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent=""  aria-label="Abdunkeln"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Abdunkeln" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent=""  aria-label="Aufhellen"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Aufhellen" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
     
     
       <label class="md-header__button md-icon" for="__search">
@@ -144,7 +162,7 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/chaso-ch/website/" title="Zum Repository" class="md-source" data-md-component="source">
+        <a href="https://github.com/chaso-ch/website" title="Zum Repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
@@ -170,7 +188,7 @@
 
   <li class="md-tabs__item">
     <a href=".." class="md-tabs__link">
-      Willkommen
+      Willkommen bei CHASO
     </a>
   </li>
 
@@ -178,13 +196,11 @@
         
   
   
-    
-  
 
 
   <li class="md-tabs__item">
-    <a href="./" class="md-tabs__link md-tabs__link--active">
-      Über CHASO
+    <a href="../kontakt/" class="md-tabs__link">
+      Kontakt
     </a>
   </li>
 
@@ -199,6 +215,24 @@
       Standort
     </a>
   </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
+        Über uns
+      </a>
+    </li>
+  
 
       
     </ul>
@@ -237,7 +271,7 @@
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/chaso-ch/website/" title="Zum Repository" class="md-source" data-md-component="source">
+      <a href="https://github.com/chaso-ch/website" title="Zum Repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
@@ -259,7 +293,7 @@
   
     <li class="md-nav__item">
       <a href=".." class="md-nav__link">
-        Willkommen
+        Willkommen bei CHASO
       </a>
     </li>
   
@@ -271,101 +305,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Über CHASO
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        Über CHASO
+    <li class="md-nav__item">
+      <a href="../kontakt/" class="md-nav__link">
+        Kontakt
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Inhaltsverzeichnis
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#warum-chaos" class="md-nav__link">
-    Warum Chaos?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fur-wen" class="md-nav__link">
-    Für Wen?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#statuten" class="md-nav__link">
-    Statuten
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#protokolle" class="md-nav__link">
-    Protokolle
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mitgliedschaft" class="md-nav__link">
-    Mitgliedschaft
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#unterstutzung-spenden" class="md-nav__link">
-    Unterstützung / Spenden
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#unterlagen" class="md-nav__link">
-    Unterlagen
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rechtliches" class="md-nav__link">
-    Rechtliches
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -381,6 +325,72 @@
       <a href="../standort/" class="md-nav__link">
         Standort
       </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index md-nav__link--active">
+          <a href="./">Über uns</a>
+          
+            <label for="__nav_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Über uns" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Über uns
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="statuten/" class="md-nav__link">
+        Statuten
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -425,48 +435,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#statuten" class="md-nav__link">
-    Statuten
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#protokolle" class="md-nav__link">
-    Protokolle
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mitgliedschaft" class="md-nav__link">
-    Mitgliedschaft
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#unterstutzung-spenden" class="md-nav__link">
-    Unterstützung / Spenden
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#unterlagen" class="md-nav__link">
-    Unterlagen
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rechtliches" class="md-nav__link">
-    Rechtliches
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -477,21 +445,23 @@
           
           
             <div class="md-content" data-md-component="content">
-              <article class="md-content__inner md-typeset">
+              <article class="md-content__inner md-typeset"><a class="md-content__button md-icon" download href="index.pdf" title="PDF Export"><svg style="height: 1.2rem; width: 1.2rem;" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm76.45 211.36l-96.42 95.7c-6.65 6.61-17.39 6.61-24.04 0l-96.42-95.7C73.42 337.29 80.54 320 94.82 320H160v-80c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v80h65.18c14.28 0 21.4 17.29 11.27 27.36zM377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9z"></path></svg></a>
                 
                   
 
-  <a href="https://github.com/chaso-ch/website/edit/master/docs/about.md" title="Seite editieren" class="md-content__button md-icon">
+  <a href="https://github.com/chaso-ch/website/blob/main/docs/über-uns/index.md" title="Seite editieren" class="md-content__button md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
 <h1 id="uber-chaso">Über CHASO</h1>
-<p>CHASO - kreatives chaos solothurn ist ein Verein (nicht kommerziell oder gewinnorientiert) zur Förderungung von Kreativität. Wir bieten einen Raum in Form eines <a href="https://de.wikipedia.org/wiki/Hackerspace">Makerspace / Hackerspaces</a>, zum Ausprobieren, Erfahren, Auseinandernehmen, Austauschen eigene Projekte verwirklichen und schlussendlich Lernen.</p>
-<p>Ein Chaos muss entstehen, so auch CHASO. Wir sind nicht "fixfertig", ganz im Gegentail, wir entstehen und verändern uns. Was heute ist, kann morgen schon anders da stehen.</p>
+<p>CHASO - kreatives chaos solothurn ist ein Verein (<em>in Gründung!</em>) (nicht kommerziell oder gewinnorientiert) zur Förderungung von Kreativität.</p>
+<p>Wir bieten einen Raum in Form eines <a href="https://de.wikipedia.org/wiki/Hackerspace">Makerspace / Hackerspaces</a>, zum Ausprobieren, Erfahren, Auseinandernehmen, Austauschen eigene Projekte verwirklichen und schlussendlich Lernen.</p>
+<p>Ein Chaos muss entstehen, so auch CHASO. Wir sind <em>nicht fixfertig</em>, ganz im Gegentail, auch wir entstehen und verändern uns, so soll es sein. Was heute ist, kann morgen schon anders da stehen.</p>
 <h2 id="warum-chaos">Warum Chaos?</h2>
-<p>Dinge auch mal auseinandernehmen um sie zu verstehen, aus Altgedientem Neues erschaffen, Dinge zweckentfremden um ein Problem zu lösen</p>
+<p>Dinge auch mal auseinandernehmen um sie zu verstehen, aus Altgedientem Neues erschaffen, Dinge zweckentfremden um ein Problem zu lösen. So ist Chaos.</p>
+<p>Unsere Grundsätze:</p>
 <ol>
 <li>Nichts kann entstehen ohne Chaos, nichts kann bestehen ohne Erkenntnis.</li>
 <li>Alles verändert sich, wir verändern uns mit.</li>
@@ -501,16 +471,6 @@
 </ol>
 <h2 id="fur-wen">Für Wen?</h2>
 <p>Jede und jeder mit Interesse am Programmieren, Lasern, Löten, Basteln, Stricken, 3D-Drucken, Website pflegen, Logo designen, etc.</p>
-<h2 id="statuten">Statuten</h2>
-<p>In Arbeit. Verein ist noch in Gründung.</p>
-<h2 id="protokolle">Protokolle</h2>
-<p>Noch keine.</p>
-<h2 id="mitgliedschaft">Mitgliedschaft</h2>
-<p>Verein ist noch in Gründung.</p>
-<h2 id="unterstutzung-spenden">Unterstützung / Spenden</h2>
-<p>Verein ist noch in Gründung.</p>
-<h2 id="unterlagen">Unterlagen</h2>
-<h2 id="rechtliches">Rechtliches</h2>
 
 
 
@@ -531,7 +491,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Fußzeile" >
       
         
-        <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Zurück: Willkommen" rel="prev">
+        <a href="../standort/" class="md-footer__link md-footer__link--prev" aria-label="Zurück: Standort" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -540,20 +500,20 @@
               <span class="md-footer__direction">
                 Zurück
               </span>
-              Willkommen
+              Standort
             </div>
           </div>
         </a>
       
       
         
-        <a href="../standort/" class="md-footer__link md-footer__link--next" aria-label="Weiter: Standort" rel="next">
+        <a href="statuten/" class="md-footer__link md-footer__link--next" aria-label="Weiter: Statuten" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Weiter
               </span>
-              Standort
+              Statuten
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -607,7 +567,7 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.config.lang": "de", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Suche", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version.title": "Version ausw\u00e4hlen"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.indexes"], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.config.lang": "de", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Suche", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version.title": "Version ausw\u00e4hlen"}}</script>
     
     
       <script src="../assets/javascripts/bundle.5a2dcb6a.min.js"></script>

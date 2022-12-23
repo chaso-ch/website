@@ -5,7 +5,18 @@ theme:
   name: material
   language: de
   palette:
-    primary: white
+    - scheme: default
+      primary: blue grey
+      toggle:
+        icon: material/brightness-7
+        name: Abdunkeln
+
+    - scheme: slate
+      primary: blue grey
+      toggle:
+        icon: material/brightness-4
+        name: Aufhellen
+
   features:
     - navigation.tabs
     - navigation.tabs.sticky

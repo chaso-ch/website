@@ -1,6 +1,6 @@
 # Über CHASO
 
-CHASO - kreatives chaos solothurn ist ein Verein (_in Gründung!_) (nicht kommerziell oder gewinnorientiert) zur Förderungung von Kreativität.
+CHASO - Kreatives Chaos solothurn ist ein Verein (_in Gründung_) (nicht kommerziell oder gewinnorientiert) zur Förderungung von Kreativität.
 
 Wir bieten einen Raum in Form eines [Makerspace / Hackerspaces](https://de.wikipedia.org/wiki/Hackerspace), zum Ausprobieren, Erfahren, Auseinandernehmen, Austauschen eigene Projekte verwirklichen und schlussendlich Lernen.
 
@@ -8,7 +8,7 @@ Ein Chaos muss entstehen, so auch CHASO. Wir sind _nicht fixfertig_, ganz im Geg
 
 ## Warum Chaos?
 
-Dinge auch mal auseinandernehmen um sie zu verstehen, aus Altgedientem Neues erschaffen, Dinge zweckentfremden um ein Problem zu lösen. So ist Chaos.
+Ein Chaos ist selbstorgansiert, unorgansiert, ein loser Rahmen, und ein Ort, an dem sich Menschen mit unterschiedlichsten Interessen treffen, um Dinge auch mal auseinandernehmen um sie zu verstehen, aus Altgedientem Neues erschaffen, Dinge zweckentfremden um ein Problem zu lösen. Das ist der Grundgedanke des "Tüftlers" und der [Hackerkultur](https://de.wikipedia.org/wiki/Hacker), die wir mittragen möchten.
 
 Unsere Grundsätze:
 

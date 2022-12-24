@@ -1,4 +1,3 @@
-
 # Statuten
 
 - Datum: 2022-12-23
@@ -15,8 +14,10 @@ Der Verein ist politisch und konfessionell unabhängig.
 
 Der Verein:
 
-- Er fördert Bildung und Kultur.
-- Er stellt Raum für Erfahrungsaustausch sowie Geräte zur kreativen Entfaltung der Mitglieder zur Verfügung.
+- Er fördert Bildung, Kultur und Spass.
+- Er stellt für Mitglieder zur Verfügung:
+    - Raum für Erfahrungsaustausch
+    - Geräte zur kreativen Entfaltung
 - Er verfolgt keine kommerziellen Zwecke und erstrebt keinen Gewinn.
 
 ## 3. Mittel
@@ -27,7 +28,7 @@ Die finanziellen Mittel setzen sich zusammen aus:
 - Jahresbeiträge der Mitglieder
 - Spenden und Zuwendungen aller Art
 - Reinertrag aus Publikationen und andersweitigen Verkäufen
-- Ertrag aus der Durchführung von Kursen
+- Reinertrag aus der Durchführung von Kursen
 - Beiträge von Dritten für die Verwendung von Geräten oder Räumen
 - Zinsen
 
@@ -131,4 +132,4 @@ Für die Schulden des Vereins haftet nur das Vereinsvermögen. Eine persönliche
 
 ## 12. Inkrafttreten
 
-Diese Statuten wurden an der Gründungsversammlung vom 23.01.2023 angenommen und sind mit diesem Datum in Kraft getreten.
+Diese Statuten wurden an der Gründungsversammlung vom xx.xx.2023 angenommen und sind mit diesem Datum in Kraft getreten.

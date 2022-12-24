@@ -7,7 +7,7 @@ theme:
   language: de
   palette:
     - scheme: default
-      primary: blue grey
+      primary: white
       toggle:
         icon: material/brightness-7
         name: Abdunkeln
@@ -17,11 +17,14 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Aufhellen
-
   features:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.indexes
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
 
 plugins:
   - search
@@ -38,3 +41,12 @@ extra:
       link: mailto:resmo@chaso.ch
 
 copyright: Alle Inhalte stehen unter <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de">Creatice Commons Lizenz (CC BY-NC-SA 4.0)</a>
+
+nav:
+  - Willkommen:
+      - "index.md"
+      - Standort: "standort.md"
+      - Kontakt: "kontakt.md"
+  - Über uns:
+      - "ueber-uns/index.md"
+      - Statuten: "ueber-uns/statuten.md"

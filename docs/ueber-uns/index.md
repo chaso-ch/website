@@ -1,8 +1,13 @@
 # Über CHASO
 
-CHASO - Kreatives Chaos solothurn ist ein Verein (_in Gründung_) (nicht kommerziell oder gewinnorientiert) zur Förderung von Kreativität.
+CHASO - Kreatives Chaos solothurn ist ein Verein (_in Gründung_) (nicht kommerziell oder gewinnorientiert) zur Förderung von Kreativität, Bildung und Kultur.
 
-Wir bieten einen Raum in Form eines [Makerspace / Hackerspaces](https://de.wikipedia.org/wiki/Hackerspace), zum Ausprobieren, Erfahren, Auseinandernehmen, Austauschen eigene Projekte verwirklichen und schlussendlich Lernen.
+Unser Ziel ist es:
+
+- Infrastruktur in Form eines [Makerspace / Hackerspaces](https://de.wikipedia.org/wiki/Hackerspace) zu bieten, um nicht-kommerzielle Projekte im Technik- und Handwerkbereich zu realisieren.
+- Eine Gemeinschaft aufzubauen, in der Ideen umgesetzt werden.
+- Den Austausch von Wissen zu fördern, sei es durch persönlichen Austausch, Vorträge oder auch Workshops.
+
 
 Ein Chaos muss entstehen, so auch CHASO. Wir sind _nicht fixfertig_, ganz im Gegenteil, auch wir entstehen und verändern uns, so soll es sein. Was heute ist, kann morgen schon anders da stehen.
 

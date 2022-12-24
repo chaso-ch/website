@@ -4,7 +4,7 @@ CHASO - Kreatives Chaos solothurn ist ein Verein (_in Gründung_) (nicht kommerz
 
 Wir bieten einen Raum in Form eines [Makerspace / Hackerspaces](https://de.wikipedia.org/wiki/Hackerspace), zum Ausprobieren, Erfahren, Auseinandernehmen, Austauschen eigene Projekte verwirklichen und schlussendlich Lernen.
 
-Ein Chaos muss entstehen, so auch CHASO. Wir sind _nicht fixfertig_, ganz im Gegentail, auch wir entstehen und verändern uns, so soll es sein. Was heute ist, kann morgen schon anders da stehen.
+Ein Chaos muss entstehen, so auch CHASO. Wir sind _nicht fixfertig_, ganz im Gegenteil, auch wir entstehen und verändern uns, so soll es sein. Was heute ist, kann morgen schon anders da stehen.
 
 ## Warum Chaos?
 

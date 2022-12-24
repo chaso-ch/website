@@ -14,7 +14,7 @@ Der Verein ist politisch und konfessionell unabhängig.
 
 Der Verein:
 
-- Er fördert Bildung, Kultur und Spass.
+- Er fördert Kreativität, Bildung und Kultur.
 - Er stellt für Mitglieder zur Verfügung:
     - Raum für Erfahrungsaustausch
     - Geräte zur kreativen Entfaltung

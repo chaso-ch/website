@@ -8,5 +8,5 @@ Bis bald!
 
 <figure markdown>
 ![Hackerspace Rapperswil-Jona](images/hackerspace-rapperswil-jona.jpg)
- <figcaption>Symbolbild Hackerspace Rapperswil-Jona coredump.ch</figcaption>
+ <figcaption>Symbolbild Hackerspace Rapperswil-Jona, &copy; coredump.ch</figcaption>
 </figure>

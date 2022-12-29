@@ -124,7 +124,7 @@ Bei einer Auflösung des Vereins fällt das Vereinsvermögen an eine steuerbefre
 Eine Revisonsstelle wird nach einer Mitgliederzahl von 20 fällig. Die Mitgliederversammlung wählt ein (1) Rechnungsrevisor oder eine juristische
 Person, welche die Buchführung kontrollieren und mindestens einmal jährlich eine Stichkontrolle durchführen.
 
-Die Revisionsstelle erstattet dem Vorstand zuhanden der Mitgliederversammlung Bericht und Antrag. Die Amtszeit beträgt ein (1) Jahr]. Wiederwahl ist möglich.
+Die Revisionsstelle erstattet dem Vorstand zuhanden der Mitgliederversammlung Bericht und Antrag. Die Amtszeit beträgt ein (1) Jahr. Wiederwahl ist möglich.
 
 ## 11. Haftung
 

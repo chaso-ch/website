@@ -1,4 +1,5 @@
 site_name: CHASO - Kreatives Chaos Solothurn
+site_url: https://chaso.ch
 
 theme:
   font: false

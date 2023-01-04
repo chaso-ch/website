@@ -1,5 +1,6 @@
 site_name: CHASO - Kreatives Chaos Solothurn
 site_url: https://chaso.ch
+site_description: Hackerspace und Chaostreff in Solothurn
 
 theme:
   font: false

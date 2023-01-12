@@ -10,3 +10,9 @@ Bis bald!
 ![Hackerspace Rapperswil-Jona](images/hackerspace-rapperswil-jona.jpg)
  <figcaption>Symbolbild Hackerspace Rapperswil-Jona, &copy; coredump.ch</figcaption>
 </figure>
+
+
+---
+<span style="font-size: small">
+{% if git.status %}Build git:{{ git.short_commit }}, {{ git.date_ISO }}{% endif %}
+</span>

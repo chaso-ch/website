@@ -56,6 +56,11 @@ extra:
     - icon: fontawesome/solid/paper-plane
       link: mailto:resmo@chaso.ch
 
+  contact:
+    name: René Moser
+    tel: "+41 76 332 13 67"
+    email: resmo@chaso.ch
+
 copyright: |
   Sofern nicht anders vermerkt, stehen Inhalte unter <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de">Creatice Commons Lizenz (CC BY-NC-SA 4.0)</a>
 

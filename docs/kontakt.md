@@ -1,6 +1,6 @@
 # Kontakt
 
-Du kannst uns für den Moment unter [resmo@chaso.ch](mailto:resmo@chaso.ch) oder telefonisch [+41 76 332 13 67](tel:+41763321367) (René Moser) erreichen.
+Du kannst uns für den Moment unter [{{ contact.email }}](mailto:{{ contact.email }}) oder telefonisch [{{ contact.tel }}](tel:{{ contact.tel | replace(" ", "") }}) ({{ contact.name}}) erreichen.
 
 ## Email Verteilerliste (Mailing List)
 

@@ -1,2 +1,2 @@
 update:
-	pip-compile -U --no-header --no-annotate --strip-extras
+	pip-compile -U --no-header --no-annotate --strip-extras --resolver backtracking

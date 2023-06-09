@@ -19,7 +19,7 @@
         <link rel="next" href="tags/">
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.15">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.15">
     
     
       
@@ -640,26 +640,27 @@
 
 
 
-<div class="pages">
-    
+<div class = "md-typeset">
+    <div class="pages">
         
-        <div class="page" id="page1">
-
             
-                
-                
-                
-                
+            <div class="page" id="page1">
 
-                
-                
-
-                
                 
                     
-                
-                
-                <div class="blog-post">
+                    
+                    
+                    
+
+                    
+                    
+
+                    
+                    
+                        
+                    
+                    
+                    <div class="blog-post">
     <h3 class="blog-post-title">
         <a class="link" href="https://chaso.ch/news/posts/20230104-chaos-gettogether/">CCC-CH Gettogether 2022-12</a>
     </h3>
@@ -681,29 +682,30 @@
         
     </p>
     <div class="blog-post-extra">
-        Published at: 05.06.2023 08:31
+        Published at: 09.06.2023 07:59
     </div>
     <hr />
 </div>
 
+                    
                 
-            
-        </div>
-    
-</div>
-
-<div class="blog-center blog-hidden">
-    <div class="blog-pagination " id="blog-pagination">
-        
-            
-                
-            
-            <a class="page-number" href="">1</a>
+            </div>
         
     </div>
-    
-        <div>Total <b>1</b> posts.</div>
-    
+
+    <div class="blog-center blog-hidden">
+        <div class="blog-pagination " id="blog-pagination">
+            
+                
+                    
+                
+                <a class="page-number" href="">1</a>
+            
+        </div>
+        
+            <div>Total <b>1</b> posts.</div>
+        
+    </div>
 </div></p>
 
 
@@ -793,6 +795,35 @@ function scrollToTop() {
   }, 100);
 }
 
+const onButtonClick = (ele) => {
+  var current = pagination.getElementsByClassName("active");
+  if (current.length) {
+    current[0].className = current[0].className.replace(
+      " active", ""
+    );
+  }
+  ele.className += " active";
+
+  // Togglg visibility of pages
+  const destPage = parseInt(ele.textContent)
+  var pages = document.getElementsByClassName("page")
+  if (destPage && pages.length) {
+    for (var j = 0; j < pages.length; j++) {
+      const pageId = parseInt(pages[j].id.replace("page", ""))
+      if (pageId != destPage) {
+        // This is not the destination page
+        if (!pages[j].className.includes("blog-hidden")) {
+          pages[j].className += " blog-hidden"
+        }
+      } else {
+        // This is the destination page
+        pages[j].className = pages[j].className.replace(" blog-hidden", "")
+      }
+    }
+    scrollToTop();
+  }
+};
+
 var pagination = document.getElementById("blog-pagination");
 if (pagination) {
   var links = pagination.getElementsByClassName("page-number");
@@ -800,38 +831,11 @@ if (pagination) {
     for (var i = 0; i < links.length; i++) {
       // Toggle pagination highlight
       links[i].addEventListener("click", function () {
-        var current = pagination.getElementsByClassName("active");
-        if (current.length) {
-          current[0].className = current[0].className.replace(
-            " active", ""
-          );
-        }
-        this.className += " active";
-
-        // Togglg visibility of pages
-        const destPage = parseInt(this.textContent)
-        var pages = document.getElementsByClassName("page")
-        if (destPage && pages.length) {
-          for (var j = 0; j < pages.length; j++) {
-            const pageId = parseInt(pages[j].id.replace("page", ""))
-            if (pageId != destPage) {
-              // This is not the destination page
-              if (!pages[j].className.includes("blog-hidden")) {
-                pages[j].className += " blog-hidden"
-              }
-            } else {
-              // This is the destination page
-              pages[j].className = pages[j].className.replace(" blog-hidden", "")
-            }
-          }
-          scrollToTop();
-        }
+        onButtonClick(this);
       });
     }
     links[currentPage].className += " active"
-    if (currentPage > 0) {
-      links[currentPage].click();
-    }
+    onButtonClick(links[currentPage]);
   }
 }
 </script>

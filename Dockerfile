@@ -7,5 +7,5 @@ COPY mkdocs.yml .
 COPY docs/ /app/docs/
 RUN mkdocs build
 
-FROM registry.gitlab.com/ngine/docker-images/caddy:2.6
+FROM registry.gitlab.com/ngine/docker-images/caddy:2.7
 COPY --from=builder /app/site/ /usr/share/caddy/

@@ -2,7 +2,7 @@
 
 Schön, dass du vorbeischaust, hier bewegt sich grad sehr viel aber kurz: Wir arbeiten an einen Hackerspace und Makerspace (zu Deutsch "Kreativatelier") im Raum Solothurn.
 
-Möchtest du mithelfen? Gerne! [Kontaktiere uns](./kontakt) um mehr zu erfahren.
+Möchtest du mithelfen? Gerne! [Kontaktiere uns](./kontakt.md) um mehr zu erfahren.
 
 Bis bald!
 

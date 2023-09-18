@@ -15,7 +15,7 @@ mkdocs==1.5.2
 mkdocs-blogging-plugin==2.2.11
 mkdocs-git-revision-date-plugin==0.3.2
 mkdocs-macros-plugin==1.0.4
-mkdocs-material==9.2.8
+mkdocs-material==9.3.1
 mkdocs-material-extensions==1.1.1
 packaging==23.1
 paginate==0.5.6

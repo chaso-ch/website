@@ -5,11 +5,12 @@ site_description: Hackerspace und Chaostreff in Solothurn
 theme:
   font: false
   logo: images/logo.png
+  favicon: favicon.ico
   name: material
   language: de
   palette:
     - scheme: default
-      primary: white
+      primary: blue grey
       toggle:
         icon: material/brightness-7
         name: Abdunkeln
@@ -54,16 +55,19 @@ edit_uri: blob/main/docs/
 
 extra:
   social:
+    - icon: fontawesome/solid/square-rss
+      link: /feed_rss_updated.xml
+
     - icon: fontawesome/brands/github
       link: https://github.com/chaso-ch
 
     - icon: fontawesome/solid/paper-plane
-      link: mailto:resmo@chaso.ch
+      link: mailto:resmo_removeme_@chaso.ch
 
   contact:
     name: René Moser
     tel: "+41 76 332 13 67"
-    email: resmo@chaso.ch
+    email: resmo_removeme_@chaso.ch
 
 copyright: |
   Sofern nicht anders vermerkt, stehen Inhalte unter <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de">Creatice Commons Lizenz (CC BY-NC-SA 4.0)</a>

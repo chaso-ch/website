@@ -1,9 +1,11 @@
 ---
 title: CCC-CH Gettogether 2022-12
-description:
-author: René Moser
+date: 2022-12-27
+authors:
+  - resmo
+categories:
+  - Allgemeines
 tags:
-  - allgemeines
   - ccc-ch
   - gettogether
 

@@ -1,4 +1,4 @@
 mkdocs-material
-mkdocs-blogging-plugin
 mkdocs-macros-plugin
 mkdocs-git-revision-date-plugin
+mkdocs-rss-plugin

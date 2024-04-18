@@ -35,15 +35,19 @@ markdown_extensions:
 plugins:
   - search
   - macros
-  - blogging:
-      dirs:
-        - news/posts
-      size: 5
-      features:
-        tags: {}
-      locale: de
-      time_format: "%d.%m.%Y %H:%M" # The format used to display the time
-      meta_time_format: "%d.%m.%Y %H:%M" # The format used to parse the time from meta
+  - blog:
+      blog_dir: news
+      authors: false
+      blog_toc: true
+  - rss:
+      match_path: news/posts/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+  - tags:
+      tags_file: news/tags.md
 
 repo_url: https://github.com/chaso-ch/website
 edit_uri: blob/main/docs/

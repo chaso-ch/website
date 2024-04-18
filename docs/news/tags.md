@@ -1,3 +1,1 @@
 # Tags
-
-{{ tag_content }}
